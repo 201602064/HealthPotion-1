@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/drink_1_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="술을 얼마나 자주 마십니까?"/>
+        <RadioGroup
+            android:layout_below="@id/drink_1_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_below="@id/drink_1_question"
+                android:id="@+id/drink_11"
+                android:text="한달에 1번 미만"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_11"
+                android:id="@+id/drink_12"
+                android:text="한달에 1번 정도"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_12"
+                android:id="@+id/drink_13"
+                android:text="한달에 2-4번 "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_13"
+                android:id="@+id/drink_14"
+                android:text="일주일에 2-3번 정도"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_14"
+                android:id="@+id/drink_15"
+                android:text="일주일에 4번 이상"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/drink_3_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한번의 술자리에서 소주, 양주 구분 없이 각각의 술잔으로 7잔(또는 맥주 5캔 정도) 이상을 마시는 횟수는 어느 정도입니까?"/>
+        <RadioGroup
+            android:layout_below="@id/drink_3_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_below="@id/drink_3_question"
+                android:id="@+id/drink_31"
+                android:text="전혀 없다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_31"
+                android:id="@+id/drink_32"
+                android:text="한달에 1번 미만"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_32"
+                android:id="@+id/drink_33"
+                android:text="한달에 1번 정도"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_33"
+                android:id="@+id/drink_34"
+                android:text="일주일에 1번 정도"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_34"
+                android:id="@+id/drink_35"
+                android:text="거의 매일"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

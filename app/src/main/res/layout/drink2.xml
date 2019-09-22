@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/drink_2_question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="한번에 술을 얼마나 마십니까?"/>
+        <TextView
+            android:layout_below="@id/drink_2_question1"
+            android:id="@+id/drink_2_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*소주, 양주 구분없이 각각의 술잔으로 계산합니다. 단 캔맥주 1개(355cc)는 맥주 1.6잔과 같습니다."/>
+        <RadioGroup
+            android:layout_below="@id/drink_2_question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_below="@id/drink_2_question2"
+                android:id="@+id/drink_21"
+                android:text="1-2잔"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_21"
+                android:id="@+id/drink_22"
+                android:text="3-4잔"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_22"
+                android:id="@+id/drink_23"
+                android:text="5-6잔"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_23"
+                android:id="@+id/drink_24"
+                android:text="7-9잔"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_24"
+                android:id="@+id/drink_25"
+                android:text="10잔이상"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
