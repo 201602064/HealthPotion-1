@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
@@ -10,31 +11,37 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="최근 본인의 의지로 몸무게를 조절하려고 노력한 적이 있습니까?"/>
-        <RadioButton
+        <RadioGroup
             android:layout_below="@id/weight_3_question"
-            android:id="@+id/weight_31"
-            android:text="몸무게를 줄이려고 노력했다"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/weight_31"
-            android:id="@+id/weight_32"
-            android:text="몸무게를 유지하려고 노력했다."
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/weight_32"
-            android:id="@+id/weight_33"
-            android:text="몸무게를 늘리려고 노력 했다."
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/weight_33"
-            android:id="@+id/weight_34"
-            android:text="몸무게를 조절하기 위해 노력해 본 적 없다."
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_below="@id/weight_3_question"
+                android:id="@+id/weight_31"
+                android:text="몸무게를 줄이려고 노력했다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/weight_31"
+                android:id="@+id/weight_32"
+                android:text="몸무게를 유지하려고 노력했다."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/weight_32"
+                android:id="@+id/weight_33"
+                android:text="몸무게를 늘리려고 노력 했다."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/weight_33"
+                android:id="@+id/weight_34"
+                android:text="몸무게를 조절하기 위해 노력해 본 적 없다."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
 
     </RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
