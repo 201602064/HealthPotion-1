@@ -16,9 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".WeightSurvey" />
+        <activity android:name=".Survey.WeightSurvey" />
         <activity android:name=".CategoryActivity" />
-        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Survey.EatSurvey" />
+        <activity android:name=".Survey.DrinkSurvey" />
+        <activity android:name=".Survey.SmokeSurvey" />
+        <activity android:name=".Survey.MentalSurvey" />
+        <activity android:name=".Survey.TeethSurvey"></activity>
     </application>
 
 </manifest>

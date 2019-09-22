@@ -4,9 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.lemon.piece.healthpotion.WeightSurvey">
-
-    <Button
+    tools:context="com.lemon.piece.healthpotion.Survey.WeightSurvey">
+    <TextView
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="비만 및 체중조절"/>
+
+    <RelativeLayout
+        android:id="@+id/weight_relative"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:id="@+id/search_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+            android:id="@+id/check"
+            android:text="temp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_below="@+id/search_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/before"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/startSearch"
+                android:text="before" />
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/beforeSearch"
+                android:text="Next" />
+        </LinearLayout>
+    </RelativeLayout>
+
 </RelativeLayout>
