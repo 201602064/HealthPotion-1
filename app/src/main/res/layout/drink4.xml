@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/drink_4_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="본인이 술을 마시는 것에 대하여 가족이나 의사가 걱정을 하거나, 술을 끊거나 줄이라는 권고를 한 적이 있습니까?"/>
+        <RadioGroup
+            android:layout_below="@id/drink_4_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_below="@id/drink_4_question"
+                android:id="@+id/drink_41"
+                android:text="없었다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_41"
+                android:id="@+id/drink_42"
+                android:text="과거에는 있었지만, 최근에는 없었다."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/drink_42"
+                android:id="@+id/drink_43"
+                android:text="최근에 그런적이 있었다."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
