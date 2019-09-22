@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
@@ -10,24 +11,30 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="최근 몸무게에 변화가 있었습니까? 몸무게가 줄거나 늘었다면 어느정도였는지 표시해 주십시오"/>
-        <RadioButton
+        <RadioGroup
             android:layout_below="@id/weight_2_question"
-            android:id="@+id/weight_21"
-            android:text="변화가 없었다. (0kg 이상 - 3kg 미만 증가 및 감소 포함)"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/weight_21"
-            android:id="@+id/weight_22"
-            android:text="몸무게가 줄었다"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/weight_22"
-            android:id="@+id/weight_23"
-            android:text="몸무게가 늘었다"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_below="@id/weight_2_question"
+                android:id="@+id/weight_21"
+                android:text="변화가 없었다. (0kg 이상 - 3kg 미만 증가 및 감소 포함)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/weight_21"
+                android:id="@+id/weight_22"
+                android:text="몸무게가 줄었다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/weight_22"
+                android:id="@+id/weight_23"
+                android:text="몸무게가 늘었다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
 
     </RelativeLayout>
 

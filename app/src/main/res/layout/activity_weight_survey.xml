@@ -18,6 +18,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <FrameLayout
+            android:layout_centerHorizontal="true"
             android:id="@+id/search_weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -31,6 +32,7 @@
 
 
         <LinearLayout
+            android:layout_centerHorizontal="true"
             android:layout_below="@+id/search_weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
