@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lemon.piece.healthpotion.CategoryActivity">
+    <RelativeLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/context1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/weight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="체중조절" />
+            <Button
+                android:id="@+id/eat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="식습관" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/context2"
+            android:layout_below="@+id/context1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/drink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="음주" />
+            <Button
+                android:id="@+id/smoke"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="흡연" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/context3"
+            android:layout_below="@+id/context2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/mental"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="정신건강" />
+
+
+
+            <Button
+                android:id="@+id/teeth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="구강 건강" />
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+
+
+
+</RelativeLayout>
