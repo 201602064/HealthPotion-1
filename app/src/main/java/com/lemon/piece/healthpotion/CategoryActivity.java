@@ -36,33 +36,30 @@ public class CategoryActivity extends AppCompatActivity implements Button.OnClic
     @Override
     public void onClick(View view){
         Intent intent = null;
+        Class temp = null;
         switch (view.getId()){
             case R.id.weight:
-                intent = new Intent(this, WeightSurvey.class);
-                startActivity(intent);
+                temp = WeightSurvey.class;
                 break;
             case R.id.eat:
-                intent = new Intent(this, EatSurvey.class);
-                startActivity(intent);
+                temp = EatSurvey.class;
                 break;
             case R.id.drink:
-                intent = new Intent(this, DrinkSurvey.class);
-                startActivity(intent);
+                temp = DrinkSurvey.class;
                 break;
             case R.id.smoke:
-                intent = new Intent(this, SmokeSurvey.class);
-                startActivity(intent);
+                temp = SmokeSurvey.class;
                 break;
             case R.id.mental:
-                intent = new Intent(this, MentalSurvey.class);
-                startActivity(intent);
+                temp = MentalSurvey.class;
                 break;
             case R.id.teeth:
-                intent = new Intent(this, TeethSurvey.class);
-                startActivity(intent);
+                temp = TeethSurvey.class;
                 break;
 
         }
+        intent = new Intent(this,temp);
+        startActivity(intent);
 
     }
 }
