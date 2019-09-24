@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/eat_2_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="점심식사를 1주일에 몇 회 하셨습니까?"/>
+        <RadioButton
+            android:layout_below="@id/eat_2_question"
+            android:id="@+id/eat_21"
+            android:text="주 5-7회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_below="@id/eat_21"
+            android:id="@+id/eat_22"
+            android:text="주 3-4회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_below="@id/eat_22"
+            android:id="@+id/eat_23"
+            android:text="주 1-2회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_below="@id/eat_23"
+            android:id="@+id/eat_24"
+            android:text="거의 안한다 (주0회)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
