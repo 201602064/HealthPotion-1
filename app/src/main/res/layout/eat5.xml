@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/eat_5_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최근 식사를 할 때, 대체로 다른 사람과 함께 식사를 하셨습니까?"/>
+        <RadioButton
+            android:layout_below="@id/eat_5_question"
+            android:id="@+id/eat_51"
+            android:text="예"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_below="@id/eat_51"
+            android:id="@+id/eat_52"
+            android:text="아니오"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:layout_below="@id/eat_52"
+            android:id="@+id/eat_53"
+            android:text="비해당"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
