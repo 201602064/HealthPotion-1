@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/smoke_5_question_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="간접흡연"/>
+        <TextView
+            android:layout_below="@id/smoke_5_question_sub"
+            android:id="@+id/smoke_5_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최근 직장의 실내에서 다른 사람이 피우는 담배 연기를 맡은 적이 있습니까?>"/>
+       <RadioGroup
+           android:layout_below="@id/smoke_5_question"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <RadioButton
+
+               android:id="@+id/smoke_51"
+               android:text="예"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <RadioButton
+               android:layout_below="@id/smoke_51"
+               android:id="@+id/smoke_52"
+               android:text="아니오"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <RadioButton
+               android:layout_below="@id/smoke_52"
+               android:id="@+id/smoke_53"
+               android:text="직장에 다니지 않는다(일을 하지 않는다)"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+       </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
