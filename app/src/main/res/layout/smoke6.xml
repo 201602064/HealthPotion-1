@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/smoke_6_question_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="간접흡연"/>
+        <TextView
+            android:layout_below="@+id/smoke_6_question_sub"
+            android:id="@+id/smoke_6_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="최근 가정의 실내에서 다른 사람이 피우는 담배 연기를 맡은 적이 있습니까?"/>
+       <RadioGroup
+           android:layout_below="@id/smoke_6_question"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <RadioButton
+
+               android:id="@+id/smoke_61"
+               android:text="예"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <RadioButton
+               android:layout_below="@id/smoke_61"
+               android:id="@+id/smoke_62"
+               android:text="아니오"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+           <RadioButton
+               android:layout_below="@id/smoke_62"
+               android:id="@+id/smoke_63"
+               android:text="본인을 제외한 가족 중 가정의 실내에서 일상적으로 담배를 피우는 사람이 없다."
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+
+
+       </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

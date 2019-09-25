@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/smoke_4_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가장 최근에 담배를 끊기 위해 사용하셨던 방법을 모두 표시해주십시오"/>
+       <CheckBox
+           android:layout_below="@id/smoke_4_question"
+           android:id="@+id/smoke_41"
+           android:text="특별한 방법 없이 자신의 의지로"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <CheckBox
+           android:layout_below="@id/smoke_41"
+           android:id="@+id/smoke_42"
+           android:text="금연 상담 전화"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <CheckBox
+           android:layout_below="@id/smoke_42"
+           android:id="@+id/smoke_43"
+           android:text="보건소 금연 클리닉"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <CheckBox
+           android:layout_below="@id/smoke_43"
+           android:id="@+id/smoke_44"
+           android:text="약국에서 본인 스스로 니코틴 대체 용품을 구입하여 사용"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <CheckBox
+           android:layout_below="@id/smoke_44"
+           android:id="@+id/smoke_45"
+           android:text="병의원을 통해 니코틴 대체용품을 사용 또는 의사 처방 약물 치료"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_below="@id/smoke_45"
+            android:id="@+id/smoke_46"
+            android:text="인터넷, 정보 포탈사이트"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_below="@id/smoke_46"
+            android:id="@+id/smoke_47"
+            android:text="금연을 시도한 적이 없다."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
