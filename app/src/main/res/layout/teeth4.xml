@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/teeth_4_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="현재 치아나 틀니, 잇몸 등 입안의 문제로, 음식을 씹는 데에 불편감을 느끼십니까?"/>
+        <TextView
+            android:id="@+id/teeth_4_question_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*틀니를 사용하시는 경우에는, 틀니를 낀 상태에서 느끼시는 상태를 표시해 주십시오."/>
+        <RadioGroup
+            android:layout_below="@id/teeth_4_question_sub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_below="@id/teeth_4_question_sub"
+                android:id="@+id/teeth_41"
+                android:text="매우 불편하다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/teeth_41"
+                android:id="@+id/teeth_42"
+                android:text="불편하다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/teeth_42"
+                android:id="@+id/teeth_43"
+                android:text="그저그렇다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/teeth_43"
+                android:id="@+id/teeth_44"
+                android:text="별로 불편하지 않다."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/teeth_44"
+                android:id="@+id/teeth_45"
+                android:text="전혀 불편하지 않다"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
