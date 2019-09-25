@@ -10,48 +10,54 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가정에서 조리한 음식 이외의 외식을 얼마나 자주 하셨습니까?"/>
-        <RadioButton
+        <RadioGroup
             android:layout_below="@id/eat_4_question"
-            android:id="@+id/eat_41"
-            android:text="하루 2회 이상"
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/eat_41"
-            android:id="@+id/eat_42"
-            android:text="하루 1회"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/eat_42"
-            android:id="@+id/eat_43"
-            android:text="주 5-6회"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/eat_43"
-            android:id="@+id/eat_44"
-            android:text="주 3-4회"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/eat_44"
-            android:id="@+id/eat_45"
-            android:text="주 1-2회"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/eat_45"
-            android:id="@+id/eat_46"
-            android:text="월 1-3회"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/eat_46"
-            android:id="@+id/eat_47"
-            android:text="거의 안한다(월 1회 미만)"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/eat_41"
+                android:text="하루 2회 이상"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/eat_41"
+                android:id="@+id/eat_42"
+                android:text="하루 1회"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/eat_42"
+                android:id="@+id/eat_43"
+                android:text="주 5-6회"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/eat_43"
+                android:id="@+id/eat_44"
+                android:text="주 3-4회"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/eat_44"
+                android:id="@+id/eat_45"
+                android:text="주 1-2회"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/eat_45"
+                android:id="@+id/eat_46"
+                android:text="월 1-3회"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/eat_46"
+                android:id="@+id/eat_47"
+                android:text="거의 안한다(월 1회 미만)"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
     </RelativeLayout>
 
 

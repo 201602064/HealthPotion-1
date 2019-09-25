@@ -10,18 +10,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가공식품을 사거나 고를 때 '영양표시'를 읽으십니까?"/>
-        <RadioButton
+        <RadioGroup
             android:layout_below="@id/eat_6_question"
-            android:id="@+id/eat_61"
-            android:text="예"
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/eat_61"
-            android:id="@+id/eat_62"
-            android:text="아니오"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/eat_61"
+                android:text="예"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/eat_61"
+                android:id="@+id/eat_62"
+                android:text="아니오"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
 
 
     </RelativeLayout>

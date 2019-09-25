@@ -10,18 +10,25 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="최근 자살하기 위해 구체적인 계획을 세운 적이 있습니까?"/>
-        <RadioButton
+        <RadioGroup
             android:layout_below="@id/mental_4_question"
-            android:id="@+id/mental_41"
-            android:text="예"
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <RadioButton
-            android:layout_below="@id/mental_41"
-            android:id="@+id/mental_42"
-            android:text="아니오"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/mental_41"
+                android:text="예"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/mental_41"
+                android:id="@+id/mental_42"
+                android:text="아니오"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RadioGroup>
+
 
 
     </RelativeLayout>
