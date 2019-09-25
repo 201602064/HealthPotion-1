@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/teeth_2_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="치약과 칫솔 이외에 입안의 건강을 위해 귀하께서 사용하시는 용품이 있습니까? 사용하시는 용품에 모두 표시해주십시오"/>
+
+
+        <CheckBox
+            android:layout_below="@id/teeth_2_question"
+            android:id="@+id/teeth_21"
+            android:text="치실(Floss)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_below="@id/teeth_21"
+            android:id="@+id/teeth_22"
+            android:text="치간칫솔"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_below="@id/teeth_22"
+            android:id="@+id/teeth_23"
+            android:text="양치용액(구강세정액)"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_below="@id/teeth_23"
+            android:id="@+id/teeth_24"
+            android:text="전동칫솔"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_below="@id/teeth_24"
+            android:id="@+id/teeth_25"
+            android:text="워터픽(물사출기), 혀클리너, 첨단칫솔, 틀니관리용품"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:layout_below="@id/teeth_25"
+            android:id="@+id/tetth_26"
+            android:text="모두 없음"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
