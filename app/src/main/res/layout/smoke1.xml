@@ -9,7 +9,7 @@
             android:id="@+id/smoke_1_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="현재 담배를 피우십니까?"/>
+            android:text="지금까지 살아오는 동안 피운 담배의 양은 총 얼마나 됩니까?"/>
         <RadioGroup
             android:layout_below="@id/smoke_1_question"
             android:layout_width="wrap_content"
@@ -17,19 +17,19 @@
             <RadioButton
 
                 android:id="@+id/smoke_11"
-                android:text="매일 피운다"
+                android:text="5갑(100개비) 미만"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
                 android:layout_below="@id/smoke_11"
                 android:id="@+id/smoke_12"
-                android:text="가끔 피운다"
+                android:text="5갑(100개비) 이상"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
                 android:layout_below="@id/smoke_12"
                 android:id="@+id/smoke_13"
-                android:text="과거에는 피웠으나 현재 피우지 않는다"
+                android:text="피운 적 없다"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </RadioGroup>

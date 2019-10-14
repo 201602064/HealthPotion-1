@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
@@ -7,36 +7,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/weight_3_question"
+            android:id="@+id/workout_3_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="최근 본인의 의지로 몸무게를 조절하려고 노력한 적이 있습니까?"/>
+            android:text="최근 1주일 동안 팔굽혀펴기, 윗몸일으키기, 아령, 역기, 철봉 등 근력 운동을 한 날은 며칠입니까?"/>
         <RadioGroup
-            android:layout_below="@id/weight_3_question"
+            android:layout_below="@id/workout_3_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <RadioButton
-                android:layout_below="@id/weight_3_question"
-                android:id="@+id/weight_31"
-                android:text="몸무게를 줄이려고 노력했다"
+                android:layout_below="@id/workout_3_question"
+                android:id="@+id/workout_31"
+                android:text="주 5~7회"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/weight_31"
-                android:id="@+id/weight_32"
-                android:text="몸무게를 유지하려고 노력했다."
+                android:layout_below="@id/workout_31"
+                android:id="@+id/workout_32"
+                android:text="주 3~4회"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/weight_32"
-                android:id="@+id/weight_33"
-                android:text="몸무게를 늘리려고 노력 했다."
+                android:layout_below="@id/workout_32"
+                android:id="@+id/workout_33"
+                android:text="주 1~2회"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-            <RadioButton
-                android:layout_below="@id/weight_33"
-                android:id="@+id/weight_34"
-                android:text="몸무게를 조절하기 위해 노력해 본 적 없다."
+			<RadioButton
+                android:layout_below="@id/workout_33"
+                android:id="@+id/workout_34"
+                android:text="하지 않았다"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </RadioGroup>
@@ -44,4 +44,4 @@
 
     </RelativeLayout>
 
-</LinearLayout>
+</android.support.constraint.ConstraintLayout>

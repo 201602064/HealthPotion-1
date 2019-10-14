@@ -7,47 +7,47 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/weight_1_question"
+            android:id="@+id/workout_2_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="현재 본인의 체형이 어떻다고 생각하십니까?"/>
+            android:text="운동을 한 번 시작하면 몇 분간 하십니까?"/>
         <RadioGroup
-            android:layout_below="@id/weight_1_question"
+            android:layout_below="@id/workout_2_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <RadioButton
-            android:layout_below="@id/weight_1_question"
-            android:id="@+id/weight_11"
-            android:text="매우 마른 편이다"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-            <RadioButton
-                android:layout_below="@id/weight_11"
-                android:id="@+id/weight_12"
-                android:text="약간 마른 편이다"
+                android:layout_below="@id/workout_2_question"
+                android:id="@+id/workout_21"
+                android:text="2시간 이상"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/weight_12"
-                android:id="@+id/weight_13"
-                android:text="보통이다"
+                android:layout_below="@id/workout_21"
+                android:id="@+id/workout_22"
+                android:text="1시간30분~2시간"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/weight_13"
-                android:id="@+id/weight_14"
-                android:text="약간 비만이다"
+                android:layout_below="@id/workout_22"
+                android:id="@+id/workout_23"
+                android:text="1시간~1시간30분"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-            <RadioButton
-                android:layout_below="@id/weight_14"
-                android:id="@+id/weight_15"
-                android:text="매우 비만이다"
+			<RadioButton
+                android:layout_below="@id/workout_23"
+                android:id="@+id/workout_24"
+                android:text="30분~1시간"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+			<RadioButton
+                android:layout_below="@id/workout_24"
+                android:id="@+id/workout_25"
+                android:text="30분 미만"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </RadioGroup>
 
-    </RelativeLayout>
 
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>

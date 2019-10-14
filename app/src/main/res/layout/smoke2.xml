@@ -9,7 +9,7 @@
             android:id="@+id/smoke_2_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="최근 한달동안 담배를 끊고자 하루(24시간) 이상 금연한 적이 있습니까?"/>
+            android:text="현재 담배를 피우십니까?"/>
        <RadioGroup
            android:layout_below="@id/smoke_2_question"
            android:layout_width="wrap_content"
@@ -17,15 +17,22 @@
            <RadioButton
 
                android:id="@+id/smoke_21"
-               android:text="예"
+               android:text="매일 피운다"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content" />
            <RadioButton
                android:layout_below="@id/smoke_21"
                android:id="@+id/smoke_22"
-               android:text="아니오"
+               android:text="가끔 피운다"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content" />
+			<RadioButton
+               android:layout_below="@id/smoke_22"
+               android:id="@+id/smoke_23"
+               android:text="과거에는 피웠으나 현재는 피우지 않는다"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content" />
+			
        </RadioGroup>
 
 

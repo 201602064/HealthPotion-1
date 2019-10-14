@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
     <RelativeLayout
@@ -7,48 +7,47 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/drink_3_question"
+            android:id="@+id/workout_3_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="한번에 술을 얼마나 마십니까? *소주, 양주 구분 없이 각각의 술잔으로 계산합니다. 단 캔맥주 1개(355cc)는 맥주 1.6잔과 같습니다."/>
+            android:text="하루 평균 걸음수는 몇 걸음 입니까?"/>
         <RadioGroup
-            android:layout_below="@id/drink_3_question"
+            android:layout_below="@id/workout_3_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <RadioButton
-                android:layout_below="@id/drink_3_question"
-                android:id="@+id/drink_31"
-                android:text="1~2잔"
+                android:layout_below="@id/workout_3_question"
+                android:id="@+id/workout_31"
+                android:text="10000 걸음 이상"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/drink_31"
-                android:id="@+id/drink_32"
-                android:text="3~4잔"
+                android:layout_below="@id/workout_31"
+                android:id="@+id/workout_32"
+                android:text="7000 - 10000걸음"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/drink_32"
-                android:id="@+id/drink_33"
-                android:text="5~6잔"
+                android:layout_below="@id/workout_32"
+                android:id="@+id/workout_33"
+                android:text="5000 - 7000 걸음"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/drink_33"
-                android:id="@+id/drink_34"
-                android:text="7~9잔"
+                android:layout_below="@id/workout_33"
+                android:id="@+id/workout_34"
+                android:text="3000 - 4000 걸음"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-            <RadioButton
-                android:layout_below="@id/drink_34"
-                android:id="@+id/drink_35"
-                android:text="10잔 이상"
+			<RadioButton
+                android:layout_below="@id/workout_34"
+                android:id="@+id/workout_35"
+                android:text="3000 걸음 미만"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
-
         </RadioGroup>
+
 
     </RelativeLayout>
 
-
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>
