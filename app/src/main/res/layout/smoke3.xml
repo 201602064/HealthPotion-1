@@ -9,7 +9,7 @@
             android:id="@+id/smoke_3_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="최근 5일 동안 니코틴 대체용품을 마지막으로 사용한 때는 언제입니까?"/>
+            android:text="앞으로 1개월 안에 담배를 끊을 계획이 있습니까?"/>
        <RadioGroup
            android:layout_below="@id/smoke_3_question"
            android:layout_width="wrap_content"
@@ -17,31 +17,25 @@
            <RadioButton
 
                android:id="@+id/smoke_31"
-               android:text="오늘 사용"
+               android:text="1개월 안에 금연할 계획이 있다"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content" />
            <RadioButton
                android:layout_below="@id/smoke_31"
                android:id="@+id/smoke_32"
-               android:text="1일 전 사용"
+               android:text="6개월 안에 금연할 계획이 있다"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content" />
            <RadioButton
                android:layout_below="@id/smoke_32"
                android:id="@+id/smoke_33"
-               android:text="2일 전 사용"
+               android:text="6개월 이내는 아니지만 언젠가는 금연할 생각이 있다"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content" />
            <RadioButton
                android:layout_below="@id/smoke_33"
                android:id="@+id/smoke_34"
-               android:text="3-5일 전 사용"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content" />
-           <RadioButton
-               android:layout_below="@id/smoke_34"
-               android:id="@+id/smoke_35"
-               android:text="최근 5일 동안 사용하지 않음"
+               android:text="현재로서는 전혀 금연할 생각이 없다"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content" />
 

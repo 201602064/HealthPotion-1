@@ -7,35 +7,41 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/weight_2_question"
+            android:id="@+id/workout_1_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="최근 몸무게에 변화가 있었습니까? 몸무게가 줄거나 늘었다면 어느정도였는지 표시해 주십시오"/>
+            android:text="일주일 동안 운동을 몇 번 하십니까?"/>
         <RadioGroup
-            android:layout_below="@id/weight_2_question"
+            android:layout_below="@id/workout_1_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <RadioButton
-                android:layout_below="@id/weight_2_question"
-                android:id="@+id/weight_21"
-                android:text="변화가 없었다. (0kg 이상 - 3kg 미만 증가 및 감소 포함)"
+            android:layout_below="@id/workout_1_question"
+            android:id="@+id/workout_11"
+            android:text="주 5~7회"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+            <RadioButton
+                android:layout_below="@id/workout_11"
+                android:id="@+id/workout_12"
+                android:text="주 3~4회"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/weight_21"
-                android:id="@+id/weight_22"
-                android:text="몸무게가 줄었다"
+                android:layout_below="@id/workout_12"
+                android:id="@+id/workout_13"
+                android:text="주 1~2회"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
             <RadioButton
-                android:layout_below="@id/weight_22"
-                android:id="@+id/weight_23"
-                android:text="몸무게가 늘었다"
+                android:layout_below="@id/workout_13"
+                android:id="@+id/workout_14"
+                android:text="거의 안한다"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </RadioGroup>
 
-
     </RelativeLayout>
+
 
 </android.support.constraint.ConstraintLayout>

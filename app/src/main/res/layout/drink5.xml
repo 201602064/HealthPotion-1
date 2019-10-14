@@ -10,7 +10,7 @@
             android:id="@+id/drink_5_question"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="최근 음주문제로 보건소, 일반의료기관, 알코올 상담센터, 정신 보건센터, 정신의료기관 등에서 상담을 받아 본 적이 있습니까?"/>
+            android:text="최근 1년 동안 음주문제로 보건소, 일반의료기관, 알코올 상담센터, 정신 보건센터, 정신의료기관 등에서 상담을 받아 본 적이 있습니까?"/>
         <RadioGroup
             android:layout_below="@id/drink_5_question"
             android:layout_width="wrap_content"
